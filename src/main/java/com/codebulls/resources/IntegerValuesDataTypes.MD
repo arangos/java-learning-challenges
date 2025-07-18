@@ -1,4 +1,4 @@
-Java has 8 primitive data types; char, boolean, byte, short, int, long, float, and double. For this exercise, we'll work with the primitives used to hold integer values (byte, short, int, and long):
+## Java has 8 primitive data types; char, boolean, byte, short, int, long, float, and double. For this exercise, we'll work with the primitives used to hold integer values (byte, short, int, and long):
 
 A byte is an 8-bit signed integer.
 A short is a 16-bit signed integer.
@@ -28,13 +28,16 @@ If the number cannot be stored in one of the four aforementioned primitives, pri
 n can't be fitted anywhere.
 Sample Input
 
+```shell
 5
 -150
 150000
 1500000000
 213333333333333333333333333333333333
 -100000000000000
+```
 
+```shell
 Sample Output
 
 -150 can be fitted in:
@@ -47,12 +50,11 @@ Sample Output
 1500000000 can be fitted in:
 * int
 * long
-  
 213333333333333333333333333333333333 can't be fitted anywhere.
-  
 -100000000000000 can be fitted in:
 * long
-  
+``` 
+
 * Explanation
 
 can be stored in a short, an int, or a long.

@@ -1,4 +1,4 @@
-package com.codebulls.IntegerValuesDataTypes;
+package com.codebulls.challenges;
 
 import java.util.*;
 
