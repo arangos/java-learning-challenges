@@ -6,7 +6,7 @@ import java.util.regex.Pattern;
 public class JavaRegex {
 
     /*
-        Sample Input
+        Sample Input to test if IP adress are ok
         000.12.12.034
         121.234.12.12
         23.45.12.56
