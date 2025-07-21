@@ -11,9 +11,7 @@ public class JavaDates {
 
         String[] firstMultipleInput = bufferedReader.readLine().replaceAll("\\s+$", "").split(" ");
         int month = Integer.parseInt(firstMultipleInput[0]);
-
         int day = Integer.parseInt(firstMultipleInput[1]);
-
         int year = Integer.parseInt(firstMultipleInput[2]);
 
         String res = findDay(month, day, year);
