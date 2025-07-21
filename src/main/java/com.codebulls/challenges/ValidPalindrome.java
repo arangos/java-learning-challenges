@@ -16,7 +16,7 @@ public class ValidPalindrome {
 
     public static boolean isValidPalindrome(String text){
         if(text != null && !text.isEmpty()){
-            String cleanedText = text.replaceAll("[^a-zA-Z0-9]", "").toLowerCase(); // Remove non-alphanumeric characters and convert to lowercase
+            String cleanedText = text.replaceAll("[^a-zA-Z]", "").toLowerCase(); // Remove non-alphanumeric characters and convert to lowercase
             int left = 0;
             int right = cleanedText.length() - 1;
 
