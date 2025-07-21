@@ -10,7 +10,7 @@ year = 2017
 
 The method should return MONDAY  as the day on that date.
 
-![Calendar example](/Users/andresarango/SourceCode/java-learning-challenges/src/main/resources/images/calendar.png)
+![Calendar example](https://raw.githubusercontent.com/arangos/java-learning-challenges/refs/heads/master/target/classes/images/calendar.png)
 
 ### Function Description
 
