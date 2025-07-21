@@ -12,6 +12,18 @@ public class JavaRegex {
         23.45.12.56
      */
 
+    /*
+    How REGEX it works
+
+    25[0-5] → matches 250–255
+
+    2[0-4][0-9] → matches 200–249
+
+    [01]?[0-9]?[0-9] → matches 0–199 in 1–3 digits (so “0”, “00”, “000” … up through “199”)
+
+    The (...)\. group is repeated three times for the first three octets, then the same alternation is applied to the fourth octet, anchored at start (^) and end ($). This guarantees each segment is 0–255 and no longer than three digits.
+     */
+
     public static void main(String[] args) throws IOException {
         BufferedReader bufferedReader = new BufferedReader(new InputStreamReader(System.in));
 
