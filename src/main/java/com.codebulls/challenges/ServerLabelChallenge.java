@@ -5,6 +5,7 @@ import java.util.*;
 public class ServerLabelChallenge {
 
         /*
+        (UpWork challenge)
         Physical servers used by our project are labeled using printed labels, with exactly one label
         being attached to a server at any given time. Each label consists of an alphabetic host type (e.g.
         "apibox") concatenated with the server number, with server numbers allocated sequentially (so,
@@ -35,6 +36,14 @@ public class ServerLabelChallenge {
         >> "apibox:2"
         tracker.attach("sitebox");
         >> "sitebox:1"
+        4
+        3
+        3
+        5
+        30
+        4
+        24
+        48
      */
 
 

@@ -1,4 +1,4 @@
-### Java server names challenge
+### Java server names challenge (UpWork challenge)
 
 Physical servers used by our project are labeled using printed labels, with exactly one label
 being attached to a server at any given time. Each label consists of an alphabetic host type (e.g.
