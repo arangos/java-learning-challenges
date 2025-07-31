@@ -20,7 +20,7 @@ public class LongestSubstringWithoutRepeatingCharacter {
         int length = s.length();
         int[] charIndexes = new int[256]; // ASCII character set
         Arrays.fill(charIndexes, -1); // Initialize all character indexes to -1, indicating they haven't been seen yet
-        int start = 0; // Start index of the current substring
+        int start = 0; // Start length of the current substring
         int best = 0; // Best length found so far
         for (int end = 0; end < length; end++) {
             char character = s.charAt(end);
